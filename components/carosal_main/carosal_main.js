@@ -1,4 +1,4 @@
-import {useState, useEffect, useDebugValue, useRef, Suspense, createContext} from "react";
+import React, {useState, useEffect, useDebugValue, useRef, Suspense, createContext} from "react";
 
 import styles from "./carosal_main.module.css";
 import CarouselSlider from "../carousel_slider/carousel_slider";
@@ -63,7 +63,7 @@ const CarosalMain = (props) => {
                             data: props.type === 1 ? data : props.extraData,
                         }}
                     >
-                        <SlideInfo></SlideInfo>
+                        <SlideInfo/>
                     </DataContext.Provider>
                 </div>
                 {props.children}

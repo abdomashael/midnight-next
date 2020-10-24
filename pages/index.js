@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Layout from "../components/layout/layout";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import CarosalMain from "../components/carosal_main/carosal_main";
-import Section from "../components/section/section";
-import CarosalSlider from "../components/carousel_slider/carousel_slider";
+const Section = dynamic(() =>  import("../components/section/section"));
+const CarosalSlider =dynamic(()=> import("../components/carousel_slider/carousel_slider"));
 import {
     ADD_HOME_SECTIONS,
     ADD_THUMBNAILS,
@@ -15,6 +15,7 @@ import {connect} from "react-redux";
 import Footer from "../components/footer/footer";
 import Loader from "../components/loader/loader";
 import {fetchGenres as FetchGenres, getCarousal, getHome} from "../utils/API";
+import dynamic from "next/dynamic";
 
 
 const cacheIt = async (arr) => {
