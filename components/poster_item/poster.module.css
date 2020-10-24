@@ -21,6 +21,7 @@
   /* background-color: var( --secondary-color ); */
   color: white;
   /* box-shadow:  0 6px 6px 0 var( --secondary-color )6; */
+  cursor: pointer;
 
 }
 
