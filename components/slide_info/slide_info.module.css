@@ -1,0 +1,154 @@
+
+
+/* .subContainer {
+  display: flex;
+  flex-direction: row;
+} */
+
+.title {
+  color: white;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 4rem;
+  height: 4vw;
+  font-style: normal;
+  font-family: 'BoutrosMBCDinkum';
+}
+
+.subInfo{
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 24px;
+}
+.part{
+  display: inline;
+  padding: .8rem 2px;
+  background-color: var( --secondary-color );
+}
+.green {
+  display: inline-block;
+  border-radius: 6px;
+  text-transform: capitalize;
+  color: var( --primary-color );
+  font-weight: 800;
+  font-size: 1.7rem;
+  padding: 8px;
+  text-align: center;
+
+  font-family: 'BoutrosMBCDinkum';  
+}
+
+.gold {
+  display: inline-block;
+  border-radius: 6px;
+  text-transform: capitalize;
+  color:  rgb(245, 197, 24);
+  font-weight: 800;
+  font-size: 1.7rem;
+  padding: 8px;
+  text-align: center;
+
+  font-family: 'BoutrosMBCDinkum';  
+}
+
+.mainInfo {
+  display: block;
+  color: #a3afc2;
+  /* font-weight: bolder; */
+  font-weight: bolder;
+  font-size: 1.5vw;
+  /* direction: rtl; */
+  font-family: 'BoutrosMBCDinkum';
+}
+
+
+
+.para {
+  max-width: 60%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  margin:auto;
+  margin-left: 0px;
+  font-family: 'BoutrosMBCDinkum';
+}
+
+.paraExtra{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.thumbnail{
+    max-height: 30vh;
+    width: auto;
+}
+
+.actionDiv{
+  width: 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For phones: */
+  .para {
+  max-width: 100%;
+
+  }
+
+  .paraExtra{
+    min-height: 4.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+
+  .title{
+    font-size: 2rem;
+    
+  }
+  .para {
+    font-size: 1rem;
+  }
+
+  .green{
+    font-size: 1rem;
+  }
+ 
+}
+
+@media only screen and (max-width: 992px) {
+  /* For tablets: */
+  .para {
+    max-width: 100%;
+  
+    }
+  
+    .paraExtra{
+      display: -webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient: vertical;  
+      overflow: hidden;
+    }
+  
+    .title{
+      font-size: 2rem;
+      
+    }
+    .para {
+      font-size: 1rem;
+    }
+  
+    .green{
+      font-size: 1rem;
+    }
+
+    .thumbnail{
+      display: none;
+    }
+
+}
+

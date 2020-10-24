@@ -1,0 +1,15 @@
+
+.logo {
+    font-size: 2rem;
+    font-family: "BoutrosMBCDinkum", serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.mid {
+    color: var(--primary-color);
+}
+
+.night {
+    color: var(--secondary-color);
+}

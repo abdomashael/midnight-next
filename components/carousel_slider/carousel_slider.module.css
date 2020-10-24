@@ -1,0 +1,57 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-content: center;
+    text-align: center;}
+
+.sliderItem {
+    height: 15vh;
+    max-width: 15vw;
+    margin: auto;
+}
+
+.container {
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+@keyframes line_animation {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 50px;
+    }
+}
+
+.activeline {
+    margin: auto;
+    margin-top: 8px;
+    width: 50px;
+    height: 2px;
+    background: var(--primary-color);
+    animation-name: line_animation;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+}
+
+
+.inactiveLine {
+    margin-top: 8px;
+    height: 2px;
+}
+
+.flag {
+    margin: 12px;
+    cursor: pointer;
+}
+
+.flag:hover {
+    color: var(--primary-color);
+}
+
+.m {
+    opacity: 0.25;
+}

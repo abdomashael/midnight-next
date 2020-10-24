@@ -1,0 +1,19 @@
+.pagenation {
+  border-radius: 4px;
+  display: block;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  align-self: center;
+  background-color: var( --primary-color );
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.pagenation:hover {
+  background-color: var( --secondary-color );
+}

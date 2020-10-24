@@ -1,0 +1,20 @@
+.header{
+    display: flex !important;
+    width: 100% !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.item{
+    display: flex !important;
+}
+
+.itemImage{
+
+}
+
+.itemBody{
+    /*display: flex !important;*/
+    flex-grow: 1;
+}

@@ -1,0 +1,63 @@
+.fullBtn {
+  display: block;
+    background: linear-gradient(90deg, var( --primary-color ) 0, var( --secondary-color ));
+    color: white !important;
+    border-radius: 25px;
+    font-weight: 1000;
+    font-size: 1rem;
+    font-family: 'BoutrosMBCDinkum';
+    text-align: center;
+    justify-content: center;
+    margin-right: 1vw;
+  }
+  
+  .btnInnerBlack {
+    display: block;
+    background-color: var( --main-backgroud-color );
+    border-radius: 25px;
+    margin: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    direction: rtl;
+
+  }
+  
+  .fullBtn:hover,
+  .btnInnerBlack:hover {
+    background: var( --primary-color ) !important;
+  }
+  
+  .icon {
+    font-size: .8rem;
+  }
+  
+  .btnInner {
+    display: block;
+    border-radius: 20px;
+    /* margin: 4px; */
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-top: 6px;
+    direction: rtl;
+  }
+
+  .wide{
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .subContainer {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .label {
+    margin-bottom: 0px;
+  }
+  

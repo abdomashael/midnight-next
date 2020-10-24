@@ -1,0 +1,71 @@
+.container{
+   display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    font-size: 1.1rem;
+    font-family: "BoutrosMBCDinkum";
+    padding-left: 20px;
+
+  
+}
+.show {
+   
+}
+
+.hide {
+    display: none;
+   
+}
+.fabContainer{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 60px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    right: 3vw;
+    bottom: 3vh;
+    z-index: 4;
+
+}
+.fab {
+    cursor: pointer;
+    border-radius: 60px;
+    padding: 14px;
+    background-color: var( --secondary-color );
+    border-color: transparent;
+    -moz-box-shadow:     0 0 50px #000000;
+    -webkit-box-shadow:  0 0 50px #000000;
+    box-shadow:          0 0 50px #000000;
+}
+
+.para{
+    color: var( --primary-color );
+    text-align: center;
+    margin: auto 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+  
+}
+.select{
+    margin:auto;
+    margin-right: 1vw;
+    cursor: pointer;
+    z-index: 6;
+    
+}
+.sort{
+    max-width: 40vw;
+    min-width: 160px;
+}
+.type{
+    min-width: 150px;
+    max-width: 40vw;
+
+
+}

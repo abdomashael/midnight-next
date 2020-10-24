@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page{
+    padding-top: 10vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.section{
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 20vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}

@@ -1,0 +1,66 @@
+.transparent {
+  background: rgb(23, 29, 37);
+  /* background: linear-gradient(0deg, rgba(23,29,37,0.02) 20%, rgba(23,29,37,1) 110%); */
+}
+.dark {
+  background-color: var( --main-backgroud-color ) !important;
+}
+
+.link{
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block !important;
+  background:transparent;
+  color: white !important;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-family: "BoutrosMBCDinkum", serif;
+  font-weight: 800;
+  text-align: center;
+  align-content: center;
+}
+
+.button:hover {
+  background: var( --primary-color ) !important;
+  color: white !important;
+}
+
+/* @media only screen and (min-width: 600px) { */
+/* For tablets: */
+/* .transparent {
+    background: rgb(23,29,37);
+    background: linear-gradient(0deg, rgba(23,29,37,0.02) 20%, rgba(23,29,37,1) 110%);
+}
+} */
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .transparent {
+    background: rgb(23, 29, 37);
+    background: linear-gradient(
+      0deg,
+      rgba(23, 29, 37, 0.02) 20%,
+      rgba(23, 29, 37, 1) 110%
+    );
+  }
+
+  .button{
+    background: linear-gradient(90deg, var( --primary-color ) 0, var( --secondary-color ));
+    color: white !important;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: "BoutrosMBCDinkum", serif;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    align-content: center;
+  }
+  
+  .button:hover{
+    background: var( --primary-color ) !important;
+    color: white !important;
+  }
+  
+}

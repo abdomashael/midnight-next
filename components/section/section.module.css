@@ -1,0 +1,114 @@
+ .container {
+   position: relative;
+   height: 250px;
+   display:block;
+   overflow-x: hidden;
+   margin-top: 50px;
+
+ } 
+  .section {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 15px;
+    right: auto;
+    left: 0;
+    transition:  transform 1.5s ease;
+
+  }
+  
+  .sectionName{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: aquamarine;
+  }
+
+  .miniFlag{
+    margin: 0 4vw;
+  }
+
+  .flagLeft ,.flagRight  {
+    position: absolute;
+    margin-top: 30px;
+    height: 150px;
+    width: 50px;
+    z-index: 1;
+    background-color: rgba(111, 108, 106, 0.6);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .flagLeft{
+    left: 0;
+  }
+  .flagRight {
+    right: 0;
+  }
+
+  .flagLeft:hover,.flagRight:hover{
+    text-decoration-color: green;
+  }
+/*   
+  .flagLeft:hover ,.flagRight:hover , .hover{
+    opacity: 1;
+  } */
+
+  .sectionHover{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    right: auto;
+    left: 0;
+    margin-right: 0px;
+    margin-left: 30px;
+
+    padding-right: 25px;
+
+    transition:  margin-right .5s ,transform 1.5s ease;
+  }
+
+  .sectionTop{
+    /* direction: rtl; */
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+
+
+  .indicator{
+    display: inline-block;
+    width: 20px;
+    border-radius: 20px;
+    /* height: 4px; */
+    margin-right: 5px;
+  }
+
+  .indicatorActive{
+    border: 2px solid var( --primary-color );
+
+    background: var( --primary-color ) !important;
+  }
+
+
+  .indicatorInactive{
+    border: 2px solid gray;
+
+    background: gray!important;
+  }

@@ -1,0 +1,19 @@
+
+.div{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  /* margin: auto; */
+  text-align: center;
+  align-items: center;
+  /* vertical-align: middle; */
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.logo{
+  font-size: 6rem !important;
+}

@@ -1,0 +1,41 @@
+.avatar {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.username{
+  margin: 8px 0px 24px 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.container{
+  max-width: 18vw;
+  display: inline-block;
+  border-width: 2px;
+  border-color: white;
+  color: white !important;
+  font-size: 1.2rem;
+  font-family: "BoutrosMBCDinkum";
+  font-weight: 800;
+  text-align: center;
+  align-content: center;
+  padding: 24px 36px;
+  background-color: var(--secondary-foreground-color);
+  box-shadow: var(--secondary-foreground-color) 4px 4px 4px;
+}
+
+.btn{
+  display: block;
+  padding: 6px 24px;
+  margin: 4px 0px;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: var(--secondary-color);
+}
+

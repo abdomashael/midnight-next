@@ -1,0 +1,60 @@
+.credit {
+  direction: rtl;
+  display: block;
+  align-items: center;
+  text-align: center;
+  color: #8595ac;
+  font-size: 1rem;
+  font-family: "BoutrosMBCDinkum";
+}
+
+.footer {
+  /* position: absolute; */
+  margin-top: 80px;
+  margin-bottom: 40px;
+  /* direction: rtl; */
+  display: block;
+  top: auto;
+  bottom: 0;
+}
+
+.item {
+  color: white;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: "BoutrosMBCDinkum";
+
+}
+
+.item > a {
+  font-family: BoutrosMBCDinkum, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: honeydew;
+}
+
+.item > a:hover {
+  color: var( --primary-color );
+  text-decoration: none;
+}
+.break {
+  margin: auto;
+  /* width: 50%; */
+  height: 100px;
+  padding: 0.5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #8595ac;
+}
+
+.itemsConatiner {
+  position: relative;
+  text-align: center;
+  display: block;
+  /* flex-direction: row; */
+  /* white-space: normal; */
+  justify-content: space-around;
+  align-items: center;
+}
